@@ -7,6 +7,4 @@ EmberLearnings.Router = Ember.Router.extend
 
       # You'll likely want to connect a view here.
       connectOutlets: (router) ->
-        router.get('applicationController').connectOutlet('allContributors', [{login:'wycats'},{login:'tomdale'}])
-
-      # Layout your routes here...
+        router.get('applicationController').connectOutlet('allContributors', EmberLearnings.Contributor.find())
