@@ -10,6 +10,7 @@ gem 'haml-rails'
 
 gem 'ember-rails', git: 'git://github.com/emberjs/ember-rails.git'
 
+gem 'heroku'
 
 # Gems used only for assets and not required
 # in production environments by default.
