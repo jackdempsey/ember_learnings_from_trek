@@ -8,7 +8,7 @@ gem 'rails', '3.2.8'
 gem 'pg'
 gem 'haml-rails'
 
-gem 'ember-rails'
+gem 'ember-rails', git: 'git://github.com/emberjs/ember-rails.git'
 
 
 # Gems used only for assets and not required

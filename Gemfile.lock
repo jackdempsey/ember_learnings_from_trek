@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/emberjs/ember-rails.git
+  revision: 3a9e90239dfd809e3158d0a936872237f50d267c
+  specs:
+    ember-rails (0.7.0)
+      active_model_serializers
+      execjs (>= 1.2)
+      railties (~> 3.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -63,10 +72,6 @@ GEM
       orm_adapter (~> 0.1)
       railties (~> 3.1)
       warden (~> 1.2.1)
-    ember-rails (0.7.0)
-      active_model_serializers
-      execjs (>= 1.2)
-      railties (~> 3.1)
     erubis (2.7.0)
     eventmachine (0.12.10)
     execjs (1.4.0)
@@ -185,7 +190,7 @@ PLATFORMS
 DEPENDENCIES
   activeadmin
   coffee-rails (~> 3.2.1)
-  ember-rails
+  ember-rails!
   haml-rails
   jquery-rails
   pg
