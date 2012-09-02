@@ -1,22 +1,11 @@
-# ReadMe
+# Ember Learnings from Trek
 
+Trek Glowacki has an excellent writeup clearly detailing how to build a
+simple Ember app up from scratch.
 
-## Deployment
+As of 9-2-12 it's available at http://trek.github.com
 
-```
-ey deploy
-```
-Remove
-## Thanks
-
-The original scaffold for this application was created by [App Scrolls](http://appscrolls.org).
-
-The project was created with the following scrolls:
-
-* active_admin
-* postgresql
-* rails_basics
-* simple_form
-* thin
-* twitter_bootstrap
+I decided to take those notes and build the app inside a Rails 3 app
+with ember-rails. This is that app. I hope you find it useful and give
+Trek a shoutout for putting together a really great resource.
 
